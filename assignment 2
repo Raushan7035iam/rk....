@@ -1,0 +1,155 @@
+Question 1.
+#include<stdio.h>
+int main()
+{
+	int n;
+	int num;
+	printf("enter a no:");
+	scanf("%d",&n);
+	num=n%10;
+	printf("%d",num);
+}
+
+Question 2.
+#include<stdio.h>
+int main()
+{
+	int n,N;
+	printf("Enter a no:");
+	scanf("%d",&n);
+	N=n/10;
+	printf("%d",N);
+}
+
+Question 3.
+#include<stdio.h>
+int main()
+{
+   int a,b,c;
+   printf("enter two no:");
+   scanf("%d%d",&a,&b);
+   c=a;
+   a=b;
+   b=c;
+   printf("%d%d",a,b);
+}
+
+Question 4.
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	printf("enter value of a and b:");
+	scanf("%d%d",&a,&b);
+	a=a+b;
+	b=a-b;
+	a=a-b;
+	printf("%d%d",a,b);
+}
+
+Question 5.
+#include<stdio.h>
+int main()
+{
+	int n,num,num1,sum,t,t1;
+    printf("enter three digit no:");
+    scanf("%d",&n);
+    num=n/100;
+    t=n%100;
+    t1=t/10;
+    num1=n%10;
+    sum=num+num1+t1;
+    printf("sum of three digit no is:%d",sum);
+}
+
+Question 6.
+#include <stdio.h>
+int main()
+{
+char ch; // variable declaration.
+printf("Enter a character");
+scanf("%c",&ch); // user input.
+printf("\n The ascii value of the ch variable is : %d", ch);
+return 0;
+}
+
+Question 8.
+#include<stdio.h>
+int main()
+{
+	int n;
+	printf("Enter a no.");
+	scanf("%d",&n);
+	if(n&1)
+	{
+		printf("%d is odd",n);
+		
+	}
+	else
+	{
+		printf("%d is even",n);
+	}
+}
+
+Question 9.
+#include<stdio.h>
+int main()
+{
+	int a;
+	float b;
+	char c;
+	double d;
+	printf("size of a is :%d\n",sizeof(a));
+	printf("size of b is :%d\n",sizeof(b));
+	printf("size of c is :%d\n",sizeof(c));
+	printf("size of d is :%d\n",sizeof(d));
+}
+
+Question 10.
+#include<stdio.h>
+int main()
+{
+	int n,N,p;
+	scanf("%d",&n);
+	N=n%10;
+	p=n-N;
+	printf("%d",p);
+}
+
+Question 11.
+#include<stdio.h>
+int main()
+{
+	int n,N;
+	printf("Enter a no:");
+	scanf("%d",&n);
+	N=n*10+9;
+	printf("%d",N);
+}
+
+Question 12.
+#include<stdio.h>
+int main()
+{
+   float INR;
+   float usd;
+   printf("Enter amount in INR");
+   scanf("%f",&INR);
+   usd=(1.0/76.23)*INR;
+   printf("%f",usd);   
+	
+}
+
+Question 13.
+#include<stdio.h>
+int main()
+{
+	int n,Q,T,P,N;
+	printf("Enter 3 digit no:");
+	scanf("%d",&n);
+	N=n/100;
+	T=n%10;
+	P=n/10;
+	Q=P%10;
+	printf("%d%d%d",T,Q,N);
+}
